@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự án hỗ trợ học sinh khó khăn</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        /* Header */
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        /* Navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Main content */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .leftcolumn {
+            flex: 75%;
+            padding: 20px;
+        }
+
+        .rightcolumn {
+            flex: 25%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+
+        /* Responsive layout */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Dự án hỗ trợ học sinh khó khăn</h1>
+    <p>Chúng tôi giúp đỡ những học sinh có hoàn cảnh khó khăn để họ có thể tiếp tục học tập.</p>
+</div>
+
+<div class="topnav">
+    <a href="#">Trang chủ</a>
+    <a href="#">Giới thiệu</a>
+    <a href="#">Tin tức</a>
+    <a href="#" style="float:right">Liên hệ</a>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>Giới thiệu về dự án</h2>
+            <p>Dự án hỗ trợ học sinh khó khăn được thành lập với mục tiêu giúp đỡ những học sinh có hoàn cảnh khó khăn, cung cấp học bổng, sách vở và các trang thiết bị học tập cần thiết.</p>
+        </div>
+        <div class="card">
+            <h2>Các hoạt động của dự án</h2>
+            <ul>
+                <li>Phát học bổng cho học sinh nghèo.</li>
+                <li>Tổ chức các lớp học bổ trợ miễn phí.</li>
+                <li>Cung cấp sách vở và đồ dùng học tập.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Hình ảnh về các em học sinh khó khăn</h2>
+            <img src="https://giadinh.mediacdn.vn/thumb_w/640/296230595582509056/2021/9/1/hoc-sinh-ngheo-16304698101951520511500.jpg" alt="Học sinh 1" style="width:100%; height:auto;">
+            <p>Hình ảnh của một em học sinh đang học tập.</p>
+            <img src="https://hieuvetraitim.com/attachments/img20150718130828-jpg.4488/" alt="Học sinh 2" style="width:100%; height:auto;">
+            <p>Hình ảnh của một em học sinh nhận sách vở từ dự án.</p>
+            <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2019/9/10/753868/70637515_27346484765.jpg" alt="Học sinh 3" style="width:100%; height:auto;">
+            <p>Hình ảnh của các em học sinh trong lớp học bổ trợ.</p>
+        </div>
+        <div class="card">
+            <h2>Nhóm ...</h2>
+            <p>Bạn có thể tham gia bằng cách quyên góp sách vở, đồ dùng học tập hoặc tài chính để hỗ trợ cho các hoạt động của dự án.</p>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>Thông tin liên hệ</h2>
+            <p>Email: support@duanhoctro.com</p>
+            <p>Điện thoại: 0123 456 789</p>
+        </div>
+        <div class="card">
+            <h3>Theo dõi chúng tôi</h3>
+            <p>Facebook: <a href="#">facebook.com/duanhoctro</a></p>
+            <p>Instagram: <a href="#">instagram.com/
